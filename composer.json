@@ -1,0 +1,21 @@
+{
+    "name": "ifx/task",
+    "autoload": {
+        "psr-4": {
+            "Ifx\\Task\\": "src/"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+          "Ifx\\Task\\Tests\\": "tests/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Błażej Byzia"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "11.2.3"
+    }
+}
